@@ -1,4 +1,4 @@
 # Unix_hw
 
 how to run the script:
-./remind $minute $hour $day $month $passwd $username $ip $message
+./remind.sh $minute $hour $day $month $passwd $username $ip $message
