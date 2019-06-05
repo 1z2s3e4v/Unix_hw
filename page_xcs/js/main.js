@@ -8,7 +8,7 @@ function main(){
 }
 
 function connect(){
-  alert("hello!");
+  //alert("hello!");
 
 
   var min = $("#Min").val();
@@ -38,12 +38,12 @@ function connect(){
       datatype: "html",
       success: function(output)
       {
-          alert("success");
+          // alert("success");
           $("#show").html(output);
       },
       error : function()
       {
-           alert("Reqire false");
+           // alert("Reqire false");
       }
   
   });
