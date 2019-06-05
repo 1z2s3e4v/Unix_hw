@@ -11,23 +11,28 @@ function connect(){
   alert("hello!");
 
 
-  var time = $("#time").val();
-  var PC = $("#PC").val();
-  var User = $("#User").val();
-  var passwd = $("#passwd").val();
-  var message = $("#message").val();
+  var min = $("#Min").val();
+  var hour = $("#Hour").val();
+  var day = $("#Day").val();
+  var mon = $("#Mon").val();
 
-  alert("time: " + time);
 
-  alert("PC: " + PC);
-  alert("User: " + User);
-  alert("passwd: " + passwd);
-  alert("message: " + message);
+  var pc = $("#PC").val();
+  var usr = $("#User").val();
+  var pwd = $("#passwd").val();
+  var mes = $("#message").val();
+
+  // alert("time: " + min + "/" + hour + "/" + day + "/" + mon);
+
+  // alert("PC: " + PC);
+  // alert("User: " + User);
+  // alert("passwd: " + passwd);
+  // alert("message: " + message);
 
   $.ajax({
 
       url: "php/exec.php",
-      data: {time: time,PC: PC, User: User, passwd: passwd, message: message},
+      data: {_min: min,_hour: hour,_day: day,_mon: mon,_pc: pc, _usr: usr, _pwd: pwd, _mes: mes},
 
       type: "POST",
       datatype: "html",
@@ -38,7 +43,7 @@ function connect(){
       },
       error : function()
       {
-         alert( "Request failed.\n" );
+           alert("Reqire false");
       }
   
   });
