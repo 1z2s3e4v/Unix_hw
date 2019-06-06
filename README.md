@@ -3,7 +3,7 @@
 ## Introduction
 
 <p>Xcowsay is a useful tools for students, engineer, and everyone.
-<p>It can help us to remember impotant meeting, or homework deadline.
+<p>It can help us to remember important meeting, or homework deadline.
 
 ## Clone project
 
@@ -18,6 +18,7 @@ git clone https://github.com/1z2s3e4v/Unix_hw.git
 ## Contact us
 
 if you want to install Xcowsay platform
+<br>
 mail us, and we'll give you the way to install. 
 <br>
 TerryL : k8510232001@gmail.com
