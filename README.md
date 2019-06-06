@@ -19,8 +19,8 @@ git clone https://github.com/1z2s3e4v/Unix_hw.git
 
 if you want to install Xcowsay platform
 mail us, and we'll give you the way to install. 
-<p>
+<br>
 TerryL : k8510232001@gmail.com
-<p>
+<br>
 FrankC : chfrank9807@gmail.com
 
