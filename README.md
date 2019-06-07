@@ -5,11 +5,17 @@
 <p>Xcowsay is a useful tools for students, engineer, and everyone.
 <p>It can help us to remember important meeting, or homework deadline.
 
-## Clone project
+## Enviroment
+
+<p>Use Docker to build xampp server 
+<p>Image from [tomisik68/xampp](https://hub.docker.com/r/tomsik68/xampp/)
+
+## How to use project
 
 ```bash
 git clone https://github.com/1z2s3e4v/Unix_hw.git
 ```
+<p> you need to clone project to '/opt/lampp/hdoct/'
 
 ## Web page
 
