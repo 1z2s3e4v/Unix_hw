@@ -5,7 +5,7 @@
 <p>Xcowsay is a useful tools for students, engineer, and everyone.
 <p>It can help us to remember important meeting, or tasks deadline.
 
-## Enviroment
+## Environment
 <p>Use Docker to build xampp server</p>
 
 We use the image from [tomisik68/xampp](https://hub.docker.com/r/tomsik68/xampp)
