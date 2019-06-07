@@ -7,8 +7,8 @@
 
 ## Enviroment
 
-<p>Use Docker to build xampp server 
-<p>Image from [tomisik68/xampp](https://hub.docker.com/r/tomsik68/xampp/)
+<p>Use Docker to build xampp server</p>
+[tomisik68/xampp](https://hub.docker.com/r/tomsik68/xampp)
 
 ## How to use project
 
