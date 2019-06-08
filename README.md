@@ -8,7 +8,7 @@
 ## Environment
 <p>Use Docker to build xampp server</p>
 
-We use the image from [tomisik68/xampp](https://hub.docker.com/r/tomsik68/xampp)
+We use the image from [theodotos/ubuntu-lamp](https://hub.docker.com/r/theodotos/ubuntu-lamp/)
 
 ```bash
 docker pull tomsik68/xampp

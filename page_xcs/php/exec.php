@@ -15,11 +15,12 @@ $_User = $_POST["_usr"];
 $_passwd = $_POST["_pwd"];
 $_message = $_POST["_mes"];
 //$init = shell_exec("crontab -r");
-$page = shell_exec("../sh/./remind.sh '".$_Min."' '".$_Hour."' '".$_Day."' '".$_Mon."' '".$_PC."' '".$_User."' '".$_passwd."' '".$_message."' 2>&1");
+$page = shell_exec("../sh/remind.sh '".$_Min."' '".$_Hour."' '".$_Day."' '".$_Mon."' '".$_passwd."' '".$_User."' '".$_PC."' '".$_message."' 2>&1");
+ 
 $show = shell_exec("crontab -l");
 
 
-//echo $page.$show;
+//echo $sta.$show;
 
 
 ?>
