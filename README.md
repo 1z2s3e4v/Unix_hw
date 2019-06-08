@@ -11,7 +11,7 @@
 We use the image from [theodotos/ubuntu-lamp](https://hub.docker.com/r/theodotos/ubuntu-lamp/)
 
 ```bash
-docker pull tomsik68/xampp
+docker pull theodotos/ubuntu-lamp
 ```
 
 ## How to clone project
